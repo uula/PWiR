@@ -97,5 +97,9 @@ namespace zadanie2vb {
 
         }
 
+        private void checkBox9_CheckedChanged(object sender, EventArgs e) {
+
+        }
+
     }
 }

@@ -56,6 +56,31 @@
             this.lTimeNoPaC = new System.Windows.Forms.Label();
             this.lCalcInfP = new System.Windows.Forms.Label();
             this.labelCalcNoP = new System.Windows.Forms.Label();
+            this.panelForm2 = new System.Windows.Forms.Panel();
+            this.lNumberOfProc = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.panelForm3 = new System.Windows.Forms.Panel();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panelForm4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.tForm2N = new System.Windows.Forms.TextBox();
+            this.tForm3N = new System.Windows.Forms.TextBox();
+            this.tForm4 = new System.Windows.Forms.TextBox();
             this.panelData.SuspendLayout();
             this.panelGraph.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -63,6 +88,9 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panelForm2.SuspendLayout();
+            this.panelForm3.SuspendLayout();
+            this.panelForm4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelData
@@ -364,11 +392,260 @@
             this.labelCalcNoP.Text = "Czas  obliczeń bez Parallel:";
             this.labelCalcNoP.Click += new System.EventHandler(this.label4_Click);
             // 
+            // panelForm2
+            // 
+            this.panelForm2.Controls.Add(this.tForm2N);
+            this.panelForm2.Controls.Add(this.label9);
+            this.panelForm2.Controls.Add(this.label5);
+            this.panelForm2.Controls.Add(this.checkBox4);
+            this.panelForm2.Controls.Add(this.checkBox3);
+            this.panelForm2.Controls.Add(this.checkBox2);
+            this.panelForm2.Controls.Add(this.checkBox1);
+            this.panelForm2.Controls.Add(this.lNumberOfProc);
+            this.panelForm2.Location = new System.Drawing.Point(627, 50);
+            this.panelForm2.Name = "panelForm2";
+            this.panelForm2.Size = new System.Drawing.Size(174, 87);
+            this.panelForm2.TabIndex = 11;
+            // 
+            // lNumberOfProc
+            // 
+            this.lNumberOfProc.AutoSize = true;
+            this.lNumberOfProc.Location = new System.Drawing.Point(3, 8);
+            this.lNumberOfProc.Name = "lNumberOfProc";
+            this.lNumberOfProc.Size = new System.Drawing.Size(69, 13);
+            this.lNumberOfProc.TabIndex = 0;
+            this.lNumberOfProc.Text = "Liczba rdzeni";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(6, 32);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(32, 17);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(40, 32);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(32, 17);
+            this.checkBox2.TabIndex = 2;
+            this.checkBox2.Text = "2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(69, 32);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(32, 17);
+            this.checkBox3.TabIndex = 3;
+            this.checkBox3.Text = "3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(98, 32);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(32, 17);
+            this.checkBox4.TabIndex = 4;
+            this.checkBox4.Text = "4";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // panelForm3
+            // 
+            this.panelForm3.Controls.Add(this.tForm3N);
+            this.panelForm3.Controls.Add(this.label10);
+            this.panelForm3.Controls.Add(this.label7);
+            this.panelForm3.Controls.Add(this.checkBox5);
+            this.panelForm3.Controls.Add(this.checkBox6);
+            this.panelForm3.Controls.Add(this.checkBox7);
+            this.panelForm3.Controls.Add(this.checkBox8);
+            this.panelForm3.Controls.Add(this.label6);
+            this.panelForm3.Location = new System.Drawing.Point(627, 143);
+            this.panelForm3.Name = "panelForm3";
+            this.panelForm3.Size = new System.Drawing.Size(174, 91);
+            this.panelForm3.TabIndex = 12;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(98, 32);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(32, 17);
+            this.checkBox5.TabIndex = 4;
+            this.checkBox5.Text = "4";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(69, 32);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(32, 17);
+            this.checkBox6.TabIndex = 3;
+            this.checkBox6.Text = "3";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(40, 32);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(32, 17);
+            this.checkBox7.TabIndex = 2;
+            this.checkBox7.Text = "2";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(6, 32);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(32, 17);
+            this.checkBox8.TabIndex = 1;
+            this.checkBox8.Text = "1";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(3, 8);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Liczba rdzeni";
+            // 
+            // panelForm4
+            // 
+            this.panelForm4.Controls.Add(this.tForm4);
+            this.panelForm4.Controls.Add(this.label11);
+            this.panelForm4.Controls.Add(this.label8);
+            this.panelForm4.Controls.Add(this.checkBox10);
+            this.panelForm4.Controls.Add(this.checkBox9);
+            this.panelForm4.Controls.Add(this.label4);
+            this.panelForm4.Location = new System.Drawing.Point(627, 243);
+            this.panelForm4.Name = "panelForm4";
+            this.panelForm4.Size = new System.Drawing.Size(174, 91);
+            this.panelForm4.TabIndex = 12;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 8);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Bez Parallel";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(10, 34);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(45, 17);
+            this.checkBox9.TabIndex = 1;
+            this.checkBox9.Text = "Tak";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(69, 34);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(42, 17);
+            this.checkBox10.TabIndex = 2;
+            this.checkBox10.Text = "Nie";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(138, 3);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Form2";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(138, 7);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(36, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Form3";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(138, 8);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 13);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Form4";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(7, 61);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(21, 13);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "N=";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(3, 64);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(21, 13);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "N=";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(7, 66);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(21, 13);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "N=";
+            // 
+            // tForm2N
+            // 
+            this.tForm2N.Location = new System.Drawing.Point(28, 59);
+            this.tForm2N.Name = "tForm2N";
+            this.tForm2N.Size = new System.Drawing.Size(43, 20);
+            this.tForm2N.TabIndex = 7;
+            // 
+            // tForm3N
+            // 
+            this.tForm3N.Location = new System.Drawing.Point(22, 59);
+            this.tForm3N.Name = "tForm3N";
+            this.tForm3N.Size = new System.Drawing.Size(43, 20);
+            this.tForm3N.TabIndex = 8;
+            // 
+            // tForm4
+            // 
+            this.tForm4.Location = new System.Drawing.Point(28, 63);
+            this.tForm4.Name = "tForm4";
+            this.tForm4.Size = new System.Drawing.Size(43, 20);
+            this.tForm4.TabIndex = 9;
+            // 
             // formCalka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 362);
+            this.ClientSize = new System.Drawing.Size(880, 381);
+            this.Controls.Add(this.panelForm4);
+            this.Controls.Add(this.panelForm3);
+            this.Controls.Add(this.panelForm2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -387,6 +664,12 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panelForm2.ResumeLayout(false);
+            this.panelForm2.PerformLayout();
+            this.panelForm3.ResumeLayout(false);
+            this.panelForm3.PerformLayout();
+            this.panelForm4.ResumeLayout(false);
+            this.panelForm4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -426,6 +709,31 @@
         private System.Windows.Forms.Label lTimeParC;
         private System.Windows.Forms.Label lTimeNoPaC;
         private System.Windows.Forms.Label lCalcInfP;
+        private System.Windows.Forms.Panel panelForm2;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label lNumberOfProc;
+        private System.Windows.Forms.Panel panelForm3;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panelForm4;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tForm2N;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tForm3N;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox tForm4;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label8;
     }
 }
 
